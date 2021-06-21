@@ -1,0 +1,29 @@
+:host {
+    text-align: center;
+}
+.title {
+  color: #fff;
+  font-weight: 400;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+.ip-address {
+  height: 2.2rem;
+  width: 80%;
+  border-radius: 12px 0 0 12px;
+  background-color: #fff;
+  color: #363636;
+  border: none;
+  padding: 22px 22px 22px 22px;
+  font-weight: 500;
+  font-size:1rem;
+}
+
+.btn-ip-address {
+    height:2.9rem;
+    width:3rem;
+    background-color: #000;
+    border-radius: 0 6px 6px 0;
+    border: none;
+}

@@ -1,0 +1,78 @@
+:host {
+  border-radius: 15px;
+  background-color:white;
+  padding: 25px;
+  z-index:1;
+}
+
+span {
+  color: hsl(0, 0%, 59%);
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+p {
+  color: hsl(0, 0%, 17%);
+  font-weight: 500;
+  font-size: 1.3rem;
+  padding-top: 12px;
+}
+
+@media screen and (max-width: 375px) {
+  :host {
+    height:max-content;
+  }
+  .grid-location {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (4, 1fr);
+  }
+
+  .grid-item-location {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    flex-direction:column;
+  }
+}
+
+/*
+@media screen and (min-width: 1440px) {
+  :host {
+    height:auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  .grid-item {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    padding-top: 5px;
+    flex-direction:column;
+  }
+
+  .location, .timezone, .isp {
+    position: relative;
+  }
+
+
+  .location::before, .timezone::before, .isp::before {
+    content: '';
+    display: inline;
+    height: 4rem;
+    width: 1px;
+    background-color: gray;
+    position: absolute;
+    left: -6%;
+    top: 22px;
+    opacity: 40%;
+  }
+} */
+
+
